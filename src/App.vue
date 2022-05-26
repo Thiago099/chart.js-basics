@@ -18,9 +18,12 @@ import lineChart from '@/charts/line-chart.vue'
 
 <style scoped>
 .chart-container {
-  position: relative; 
-  height:400px; 
-  width:400px;
-  display:inline-block
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 </style>
