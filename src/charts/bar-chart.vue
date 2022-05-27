@@ -39,6 +39,7 @@ const config = {
 type: 'bar',
 data: data,
 options: {
+    //  indexAxis: 'y', // horizontal
     scales: {
     y: {
         beginAtZero: true
