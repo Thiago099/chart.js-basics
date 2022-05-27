@@ -76,6 +76,7 @@ onMounted(
         'rgb(153, 102, 255)',
         'rgb(201, 203, 207)'
         ],
+        pointStyle: 'rectRot',
         borderWidth: 1
     });
     myChart.update();
